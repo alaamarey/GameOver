@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dis="ltr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./images/logo-sm.png" type="image/x-icon">
+
+
+    <!-- font awesome v6 -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap  v5.3 -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="loading d-none">
+      <span class="loader"></span>
+    </div>
+
+    <span class="position-fixed bottom-0 end-0 z-3 m-4">
+      <i id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+    </span>
+
+    <!-- Start NavBar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-dark nav-bg"
+    >
+      <div class="container">
+        <h1 class="navbar-brand">
+          GameOver
+          <img
+            src="./images/logo-sm.png"
+            alt="logo-image"
+            style="max-width: 40px"
+          />
+        </h1>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-capitalize"
+                aria-current="page"
+                href="#"
+                data-categroy="mmorpg"
+                >mmorpg</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize"
+                href="#"
+                data-categroy="shooter"
+                >shooter</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize"
+                href="#"
+                data-categroy="sailing"
+                >sailing</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize"
+                href="#"
+                data-categroy="permadeath"
+                >permadeath</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize"
+                href="#"
+                data-categroy="superhero"
+                >superhero</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#" data-categroy="pixel"
+                >pixel</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="#" data-categroy="pvp"
+                >pvp</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize"
+                href="#"
+                data-categroy="action"
+                >action</a
+              >
+            </li>
+          </ul>
+
+          <a href="./login.html" class="link-secondary">LogOut</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End NavBar -->
+
+    <main class="container">
+      <h1 class="h4 text-light m-3">
+        Top Free Moba Games For PC And Browser In 2023!
+      </h1>
+
+      <section id="home">
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xlg-4 g-4"
+          id="games-data"
+        ></div>
+      </section>
+    </main>
+
+    <!-- BootStrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Styel Register js  -->
+    <script src="./js/home.js"></script>
+  </body>
+</html>

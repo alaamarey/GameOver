@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+
+
+    <link rel="shortcut icon" href="./images/logo-sm.png" type="image/x-icon">
+
+    <!-- font awesome v6 -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap  v5.3 -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <span class="position-fixed bottom-0 end-0 m-4">
+      <i id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+    </span>
+
+    <main class="container min-vh-100 hstack register-area ">
+      <section class="register shadow rounded overflow-hidden ">
+        <div class="row">
+
+          <div class="col-lg-5 d-lg-block d-none">
+            <div class="image"></div>
+          </div>
+
+          <div class="col-lg-7 ">
+            <header class="text-center">
+              <img src="./images/logo-sm.png" alt="logoImage" />
+              <h1>Register to Game Over</h1>
+            </header>
+
+            <form class="row g-4 pt-2" id="register-form">
+
+              <div class="col-lg-6">
+                <div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    id="firstName"
+                  />
+
+                  <ul class="invalid-feedback alert alert-danger">
+                    <li>First Name Is Required</li>
+                    <li>Minmum Length 2 and Maxmum 20</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="form-control"
+                    id="lastName"
+                  />
+
+                  <ul class="alert alert-danger invalid-feedback">
+                    <li>Last Name Is Required</li>
+                    <li>Minmum Length 2 and Maxmum 20</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    id="emailAddress"
+                  />
+
+                  <ul class="alert alert-danger invalid-feedback">
+                    <li>Email Is Required</li>
+                    <li>InValid Email Formate</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div>
+                  <input
+                    type="Password"
+                    class="form-control"
+                    placeholder="Password"
+                    id="password"
+                  />
+
+                  <ul class="alert alert-danger invalid-feedback">
+                    <li>Password Is Required</li>
+                    <li>Minimum eight characters, at least one letter and one number</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Age"
+                    id="age"
+                  />
+
+                  <ul class="alert alert-danger invalid-feedback">
+                    <li>Age Is Required</li>
+                    <li>Minimum 10 Maxmum 80</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div>
+                <button type="submit" class="form-control"  id="btn-register">Register</button>
+                <p class="text-center  text-danger pt-3"> </p>
+              </div>
+            </form>
+
+            <footer class="text-center">
+              <p>
+                Already a member?
+                <a href="./login.html" class="link-secondary text-decoration-none">
+                  Login <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </p>
+            </footer>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- BootStrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- Styel Register js  -->
+    <script src="./js/register.js"></script>
+  </body>
+</html>
