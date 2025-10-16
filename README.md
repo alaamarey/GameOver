@@ -22,7 +22,7 @@
 
 1. **Clone the repository**
  ```bash
-   1. git clone https://github.com/alaamarey/GameOver-.git
+   1. git clone https://github.com/alaamarey/GameOver.git
    2. cd YourProjectName
    3.Open index.html directly in your browser
     No server setup is required
